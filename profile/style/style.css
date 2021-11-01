@@ -1,0 +1,92 @@
+body {
+	background-image: linear-gradient(to right, rgba(255, 99, 71, 0.5), rgba(0, 0, 255, 0.3));
+	font-family: 'Roboto', sans-serif;
+}
+
+.card-profile {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	background-image: url(https://images.pexels.com/photos/2120114/pexels-photo-2120114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-size: cover;
+	margin: auto;
+}
+
+.card-profile::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 5px;
+	display: block;
+	height: 15px;
+	width: 15px;
+	background: rgb(105, 207, 64);
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 1px 0.9px white
+}
+
+.card {
+	background: white;
+	width: 380px;
+	height: 375px;
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px;
+}
+
+.card-title {
+	font-size: 25px;
+	color: darkgrey;
+}
+
+.card-content {
+	font-size: 15px;
+	color: darkgrey;
+}
+
+.card-list {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.card-list-item {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100px;
+	color: darkgrey;
+}
+
+.card-list-item-value {
+	display: block;
+	padding-top: 15%;
+	color: purple;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.card-list-item-text {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.card-button {
+	border-radius: 8px;
+	background: purple;
+	color: white;
+	width: 150px;
+	height: 45px;
+	border: none;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+
+.message {
+	background: #DE3163;
+	margin-left: 15px;
+}
